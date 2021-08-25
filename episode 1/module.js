@@ -1,0 +1,28 @@
+// const name = require('./people')
+// const obj = require('./people')
+const {people,ages} = require('./people')
+console.log(people)
+console.log(ages)
+// console.log(obj.people)
+// console.log(obj['ages'])
+// console.log(age)
+// const names = require('./people')
+// const {people,ages} = require('./people') // destructive method
+
+// console.log(names)
+// console.log(names.people)
+// console.log(names.ages)
+// console.log(people)
+// console.log(ages)
+
+
+// console.log(people)
+const os = require('os')
+// console.log(os)
+console.log(os.homedir())
+console.log(os.hostname())
+// console.log(os.cpus())
+// console.log(os.networkInterfaces())
+// console.log(os.userInfo())
+// const os = require('os')
+// console.log(os.platform(),os.homedir())
