@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&display=swap');
+body{
+    font-family: 'Noto Serif', serif;
+    background-color: gainsboro;
+    margin-bottom:50px;
+    /* width: 100%; */
+}
+body>div.container{
+    /* margin: 50px; */
+    padding: 20px;
+}
+.content{
+    text-align: justify;
+}
+.row{
+    width: 70%;
+}
+footer{
+    text-align: center;
+    background-color: crimson;
+    color: white;      
+    position: fixed;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
