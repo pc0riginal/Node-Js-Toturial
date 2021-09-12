@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&display=swap');
+body{
+    font-family: 'Noto Serif', serif;
+    background-color: gainsboro;
+    margin-bottom:50px;
+    /* width: 100%; */
+}
+body>div.container{
+    /* margin: 50px; */
+    padding: 20px;
+}
+.content{
+    text-align: justify;
+}
+.row{
+    width: 70%;
+}
+footer{
+    text-align: center;
+    background-color: crimson;
+    color: white;      
+    position: fixed;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+.single{
+    text-decoration: none;
+    color: black;
+}
+.blogs a{
+    display: block;
+    margin: 40px 0;
+    padding-left: 30px;
+    border-left: 6px solid crimson;
+}
+.blogs a:hover h3{
+    color: crimson;
+}
+
+.details{
+    position: relative;
+}
+
+.delete{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    padding: 8px;
+    text-decoration: none;
+    color: red;
+}
+.delete:hover{
+    color: red;
+    cursor: pointer;
+    box-shadow: 1px 2px 3px rgba(0,0,0,2);
+}
